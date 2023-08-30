@@ -1,0 +1,7 @@
+ahorrosDepositados = float(input("Introduce la inversión inicial:"))
+balance1 = float(ahorrosDepositados * 0.04 + ahorrosDepositados)
+balance2 = float(balance1 * 0.04 + balance1)
+balance3 = float(balance2 * 0.04 + balance2)
+print("Balance tras el primer año: " + str(round(balance1,2)))
+print("Balance tras el segundo año: " + str(round(balance2,2)))
+print("Balance tras el tercer año: " + str(round(balance3,2)))
