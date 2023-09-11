@@ -11,7 +11,7 @@ files:
           offset: 0
         initialized_from_dependency: false
         selected: true
-        status: Failed
+        status: Solved
         encrypted_possible_answer: N9Z4+8YiV4kpTde1rbrGoFd6M/GGvdpLeR6bJpjU69rcRnz01H145qIqmWbmeDOoUDG+PPQuagxRigmTNZRozeHuojC428DfjoSsIx9b+qswP8QOf27MNnlc8ll3oJjeEYKnYqdAI9NotBuP18hc/X7Wgo75pYobq2dfIBBW5HXO/EWwmN9VS49T4kOYCvfsqOUPoyxBWSbte2FEFiHQ4yA6npPdzQaRdXKODICw6xPAylR3JKW8HNKVaX+Y48+uFseFK7LTymT4yxkoRUaX2b0C/cEmAIONYVyVnNV6pmTFjrIw+vqH2Bwld0ratbksuF963BK15uDB6twBLlOEuszeTvSe16ot77g7hYal3be0mVhCQiRJ3vlJZIsJEVJXW8BZLjTjQU5tYK9WFpEUZHk1NOE9RIApeRhc6T8cWmjS4UYSra/S6fWqmhs467M/CKENJIadh3VTLYn1prJPFPfVTJoQm1TEUwml/4RNTlE=
     encrypted_text: PXNohf98r8baGAWz0WMPaw==
     learner_created: false
@@ -27,15 +27,8 @@ files:
     visible: false
     encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: "\"¿Qué[88 chars]/No)? \" != \"¿Qué[88 chars]/No)?¿Qué dato quieres introducir?apellido:\
-    \ {'[75 chars]No)?\""
-  time: "Tue, 29 Aug 2023 02:10:24 UTC"
-  expected: "¿Qué dato quieres introducir?nombre: {'nombre': 'luis'}\n¿Quieres añ\
-    adir más información (Si/No)? "
-  actual: |-
-    ¿Qué dato quieres introducir?nombre: {'nombre': 'luis'}
-    ¿Quieres añadir más información (Si/No)?¿Qué dato quieres introducir?apellido: {'nombre': 'luis', 'apellido': 'perez'}
-    ¿Quieres añadir más información (Si/No)?
+  message: Congratulations!
+  time: "Sat, 02 Sep 2023 19:31:55 UTC"
 record: -1

@@ -7,8 +7,12 @@ def mcd(n, m):
         El máximo común divisor de n y m.
     """
 # TODO
-
-
+    rest = 0
+    while(m > 0):
+        rest = m
+        m = n % m
+        n = rest
+    return n
 def mcm(n, m):
     """Función que calcula el mínimo común múltiplo de dos números.
     Parámetros:
@@ -18,7 +22,13 @@ def mcm(n, m):
         El mínimo común múltiplo de n y m.
     """
 # TODO
-
+    if n > m:
+        greater = n
+    else:
+        greater = m
+    while (greater % n != 0) or (greater % m != 0):
+        greater += 1
+    return greater
 
 print(mcd(24, 36))
 # resultado esperado: 12

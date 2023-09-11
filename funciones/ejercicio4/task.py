@@ -6,7 +6,7 @@ def invoice(amount, vat=21):
     Devuelve el total de la factura una vez aplicado el IVA.
     """
     # TODO
-
+    return amount + amount*vat/100
 
 print(invoice(1000, 10))
 # resultado esperado: 1100.0

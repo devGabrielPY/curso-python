@@ -5,7 +5,8 @@ def circle_area(radius):
     Devuelve el área del círculo de radio radius.
     """
 # TODO
-
+    pi = 3.1415
+    return pi * radius**2
 
 def cilinder_volume(radius, high):
     """Función que calcula el volumen de un cilindro.
@@ -15,7 +16,7 @@ def cilinder_volume(radius, high):
     Devuelve el volumen del clindro de radio radius y altura high.
     """
 # TODO
-
+    return circle_area(radius)*high
 
 print(cilinder_volume(3, 5))
 # resultado esperado: 141.3675

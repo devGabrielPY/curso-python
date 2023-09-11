@@ -20,7 +20,9 @@ content:
 - programacion_funcional
 - ficheros
 - programación_orientada_a_objetos
+- mini_aplicaciones
+- scripts
 mode: Study
 solutions_hidden: true
 vendor:
-  name: jorge luis gonzalez perez
+  name: JetBrains

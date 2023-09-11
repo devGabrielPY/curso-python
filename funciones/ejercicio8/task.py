@@ -4,7 +4,11 @@ def square(sample):
     sample: Es una lista de números
     Devuelve una lista con los cuadrados de los números de la lista sample.
     """
-# TODO
+    # TODO
+    list = []
+    for i in sample:
+        list.append(i ** 2)
+    return list
 
 
 def statistics(sample):
@@ -13,8 +17,12 @@ def statistics(sample):
     sample: Es una lista de números
     Devuelve un diccionario con la media, varianza y desviación típica de los números en sample.
     """
-# TODO
-
+    # TODO
+    stat = {}
+    stat['media'] = sum(sample) / len(sample)
+    stat['varianza'] = sum(square(sample)) / len(sample) - stat['media'] ** 2
+    stat['desviacion tipica'] = stat['varianza']**0.5
+    return stat
 
 print(statistics([1, 2, 3, 4, 5]))
 # resultado esperado: {'media': 3.0, 'varianza': 2.0, 'desviacion tipica': 1.4142135623730951}

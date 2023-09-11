@@ -23,3 +23,5 @@ sí existe el fichero se lee y se muestra.
 sino, entonces muestra el mensaje `No existe el fichero con la tabla del 4` y procede a crea el fichero `tabla-n.txt`
 
 Nota: Utilice `try` para manejar los errores.
+
+Al terminar llame a su profesor para revisar el código.

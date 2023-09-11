@@ -6,9 +6,10 @@ def factorial(n):
     """
     # TODO
 
+    resultado = 1
+    for i in range(int(n)):
+        resultado *= i + 1
+        #print(resultado)
+    return resultado
 
 print(factorial(4))
-# resultado esperado: 24
-
-print(factorial(20))
-# resultado esperado: 2432902008176640000
