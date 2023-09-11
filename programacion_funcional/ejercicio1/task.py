@@ -7,10 +7,11 @@ def apply_discount(price, discount):
     Devuelve:
         El precio final tras aplicar el descuento.
     '''
-# TODO
+    # TODO
+    return price - price * discount / 100
 
 
-def apply_IVA(price, percentage):
+def apply_IVA(price, percentage):    
     '''
     Función que aplica un IVA a una cantidad.
     Parámetros:
@@ -19,7 +20,9 @@ def apply_IVA(price, percentage):
     Devuelve:
         El precio final tras aplicar el IVA.
     '''
-# TODO
+
+    # TODO
+    return price + price * percentage / 100
 
 
 def price_basket(basket, function):
@@ -31,7 +34,13 @@ def price_basket(basket, function):
     Devuelve:
         El precio final de la cesta de la compra una vez aplicada la función sobre los precios iniciales.
     '''
-# TODO
+
+    # TODO
+    total = 0
+    for price, discount in basket.items():
+        total += function(price, discount)
+        return total
+
 
 print('El precio de la compra tras aplicar los descuentos es:',
       price_basket({1000: 20, 500: 10, 100: 1}, apply_discount))

@@ -1,12 +1,12 @@
 type: theory
 files:
+- name: main.py
+  visible: true
+  encrypted_text: eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXNoSZ4VptPXjrnypmUYZRleFLjQGsouH7Z/1FvH7OqC8U4jN0maBSkoW7X5lVi344nhXqVob3GILI/I7HYlydr5oaXlkJBE11Hs4+yFIPkvOqwFOUJ4ftWhNMglY5ht5EBNw2GQnChlD34DyCgsewrOg==
+  learner_created: false
 - name: __init__.py
   visible: false
   encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
-  learner_created: false
-- name: main.py
-  visible: true
-  encrypted_text: eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc=
   learner_created: false
 status: Solved
 record: -1

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 490
+    length: 6
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: hm29mISZ5W3EDWQtv313R+OXwditBXN7Rrnb83etw2QCEtiD87TFQ1f/QpqELjtoCbvqHschtn6+VoWjQU9FqUpknEiD9QvQIeLYY0UjsDUu4uyQa6yf/6knX71tPcDEkpPlg/D04fsvhZRftxihmuuA1PJiJVpMmII5Zy4kwG23ATePXAXrsp25G131qqYLczSRkcpZcuLz8mhm/ntY/u0ETgmDIvvJa89WIrlVQb37y67zXdsH3PI2P6VbEHZHzzwR7k9G3ZViLcO7apwMAKKXa6r6FcUHe6KRR+t4QFescV3kgVmGgaHDIiNWISNMdPR1sDhQNV3EgohXxwMNKCZdCmp+dG7e8jeie44Zc/WgSCIurE7BmBWPUO52HSrp0NG8U3GRh0CJDFohS6mqUawyqWbIhidTvvQbkWj2k6u4BNmXBAp5t117gLVXQdMd5nd+E40haHhksWO9w2gH4+tIVNDt7Une7Fo+XMjLhCAeeDBYfP8S3eyfDDRu0WAYprlhC8zyViuwnQ1GE7crYjVuif1G8zac92eOceJJ6WdaHDiVr2/a3YPdkJCAa7JBpGGhPYr/2glUHV5/nkGZJBVKclFRfEPsz8+xFDz1YkQD1EHRyqDJCHz1M/IA63f1QDqFQB3s5+Ydipm2Wpemdw==
   encrypted_text: PXNohf98r8baGAWz0WMPaw==
@@ -30,5 +30,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 24 Aug 2023 18:46:50 UTC"
+  time: "Mon, 11 Sep 2023 14:35:56 UTC"
 record: -1

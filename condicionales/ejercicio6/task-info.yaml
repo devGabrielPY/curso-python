@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 284
+    length: 6
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: GTMK+t/Xj/1mw0VTsEmhdc77RxqcGs/R5sZrA8ljq0IyD6q2yxytL/Px776KxdPF5AghGi15wI8nDTKcU/1mdeHEfLT7nON874vpkdPhTknV0YEbF0a2z8GthDt+KP69ooWXewucau2CNXLdffrlAyCBWUCNu10+eku7vLFoUz/UgBhg0MX3MRkfC7CelCIEhoUdYJEUdKCuSjfC/KtfAAZ6OdbLhK8rnFevCpiX+gjzZ7NBU1Mk1oI/2VUR4/G+Q+XF14b5Ih2/JlzWbLT4GDCwad03yqL2se5SBwWudKGjoieyXwxOFCwCI5iIkcI4
   encrypted_text: PXNohf98r8baGAWz0WMPaw==
@@ -30,5 +30,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 21 Aug 2023 14:58:29 UTC"
+  time: "Mon, 11 Sep 2023 14:36:56 UTC"
 record: -1
